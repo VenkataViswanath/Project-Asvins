@@ -1,0 +1,79 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.button {
+  border-radius: 0.6rem;
+  background: #0575E6;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 8px 30px;
+  font-weight: 500;
+}
+.button-small {
+  border-radius: 0.6rem;
+  background: #0575E6;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 20px;
+  position: relative;
+  font-weight: 500;
+}
+.button:hover {
+  border: 2px solid #0582ff; /* Blue border */
+  padding: 8px 28px;
+  color: #0582ff; /* Blue text color */
+  background: white; /* White background */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  transition: background 0.3s ease; /* Add a smooth transition effect on background change */
+  font-weight: 500;
+}
+
+.button-small:hover {
+  padding: 6px 18px;
+  box-sizing: border-box;
+  border: 2px solid #0582ff; /* Blue border */
+  color: #0582ff; /* Blue text color */
+  background: white; /* White background */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  transition: background 0.3s ease; /* Add a smooth transition effect on background change */
+  font-weight: 500;
+}
+
+.home {
+  width: 100vw;
+  height: 100vh;
+}

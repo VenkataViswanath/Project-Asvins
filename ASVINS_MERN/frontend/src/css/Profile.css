@@ -1,0 +1,59 @@
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    padding: 20 20 20 0;
+    text-decoration: none;
+    color: black;
+}
+.profile-card-doc{
+    display: flex;
+    align-items: center;
+    width: 40vw;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #b1b1b1;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 60px;
+    height:60px;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.profile-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.profile-description {
+    font-size: 16px;
+    color: #777;
+    align-items: center;
+    display: flex;
+}
+
+.specialties {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.specialties span {
+background-color: #c6deeb;
+color: #777;
+font-size: 14px;
+padding: 5px 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+border-radius: 3px;
+}
+
+.icon{
+    width: 25px !important;
+    height: 25px;
+    margin-right: 8px;
+}
+

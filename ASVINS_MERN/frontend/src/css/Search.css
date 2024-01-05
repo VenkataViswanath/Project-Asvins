@@ -1,0 +1,21 @@
+.search{
+    display: flex;
+    gap: 40px;
+}
+.search input {
+    margin-bottom: 0px !important;
+}
+.button-small{
+    margin-top: 0;
+}
+.searchbar{
+    width: 40vw;
+}
+.radius {
+    display: flex;
+    align-items: center;
+}
+.radius input {
+    width: 60px;
+    margin: 0px 12px;
+}

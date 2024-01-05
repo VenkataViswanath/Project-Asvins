@@ -1,0 +1,64 @@
+.nav-container {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    top: 0;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    z-index: 1;
+    background-color:#003eaa;
+    justify-content: space-between; /* To push the items to the edges */
+    align-items: center; /* Vertically center items */
+  }
+  
+  
+  .heart-logo {
+    /* Add your image styles here */
+    width: 35px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    justify-content: left !important;
+    padding-left: 40px;
+  }
+
+  .nav>div {
+    display: flex;
+    align-content: center;
+  }
+  
+  .nav li {
+  padding-right: 40px;
+  align-self: center;
+  }
+  
+  ul.nav li a {
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  ul.nav li a:hover {
+    color: grey
+  }
+
+  .nav button {
+    margin-top: 0;
+    background-color: white;
+    color:#003eaa;
+    transition: 0.2s ease-in-out;
+  }
+
+  .nav button:hover {
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+  }
