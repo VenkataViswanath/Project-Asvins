@@ -1,7 +1,5 @@
 # Asvins Documentation
-Project Asvins – Patient Insurance Management System: Lead a team of 5 to design Project Asvins which is a web platform hub      
-       for all things healthcare. The goal of Asvins is to organize resources for patients, doctors, and insurance agencies so that they can    
-       access everything they need right in one place. 
+Project Asvins – Patient Insurance Management System: Lead a team of 5 to design Project Asvins which is a web platform hub for all things healthcare. The goal of Asvins is to organize resources for patients, doctors, and insurance agencies so that they can access everything they need right in one place. 
 
 
 <aside>
